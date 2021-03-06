@@ -1,3 +1,9 @@
+import { IUser } from "./IUser";
+import { IComment } from "./IComment";
+import { IPost } from "./IPost";
+import { IMessage } from "./IMessage";
+
+
 const database: IDatabase = [
 	users: IUser[
 		jack23:{
