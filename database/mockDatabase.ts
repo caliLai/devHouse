@@ -12,7 +12,9 @@ const database: IDatabase = [
 			email: "jLeeLee@gmail.com",
 			username: "jack23",
 			password: "Hack123-4",
-			id: 1
+			id: 1,
+			following: [2],
+			followers: [2]
 		},
 		tester:{
 			firstname: "tester",
@@ -20,7 +22,9 @@ const database: IDatabase = [
 			email: "tester@tester.com",
 			username: "tester",
 			password: "tester-123",
-			id: 2
+			id: 2,
+			following: [1],
+			followers: [1]
 		},
 	],
 	posts: IPost[
