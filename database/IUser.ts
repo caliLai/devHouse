@@ -5,4 +5,6 @@ export interface IUser {
 	username: String;
 	password: String;
 	id: Number;
+	followers: Number[];
+	following: Number[];
 }
