@@ -13,8 +13,8 @@ const database: IDatabase = [
 			username: "jack23",
 			password: "Hack123-4",
 			id: 1,
-			following: [1, 2],
-			followers: [1, 2]
+			following: [1],
+			followers: [1]
 		},
 		tester:{
 			firstname: "tester",
@@ -23,8 +23,8 @@ const database: IDatabase = [
 			username: "tester",
 			password: "tester-123",
 			id: 2,
-			following: [1, 2],
-			followers: [1, 2]
+			following: [1],
+			followers: [1]
 		},
 	],
 	posts: IPost[
